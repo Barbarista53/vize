@@ -85,7 +85,7 @@ public class Main {
                     if (biletler[i] >= 0)
                         System.out.println(filmAdlari[biletler[i]] + " (" + filmTurleri[biletler[i]] + ", " + filmSureleri[biletler[i]] + " dk)");
                     else System.out.println("Henüz seçilmedi");
-                    System.out.println(musteriAdlari[i] + " - " + musteriMailleri[i] + " | Film: ");
+                    System.out.println(musteriAdlari[i] + " - " + musteriMailleri[i] + " | Film:  " + filmAdlari[i]);
                 }
             }
 
